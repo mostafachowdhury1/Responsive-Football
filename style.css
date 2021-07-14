@@ -1,0 +1,640 @@
+
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+*{
+
+    margin: 0px;
+    padding:0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    background:#2D25A0;
+   
+    padding:20px 40px 20px 30px;
+}
+
+header{
+    background:#2D25A0;;
+    width:1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+nav ul li{
+
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+
+}
+nav ul li:hover{
+    background: crimson;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+}
+
+.bt{
+  background: crimson; 
+  padding: 13px 20px;
+  font-size: 16px;
+  color:white;
+  text-transform: capitalize;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.bt:hover{
+    background: lawngreen;
+
+}
+.bt .fas{
+    margin-right: 8px;
+    font-size: 17px;
+}
+button{
+
+
+    background: none;
+    border:none;
+    outline:none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+  /*--------------------------------------------- container ---------------------*/
+
+
+.container{
+
+    width:1160px;
+    margin: auto;
+    background:#2D25A0;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+ 
+  
+}
+
+.home-content{
+
+    width:480px;
+ 
+ 
+  
+
+}
+
+.home-content h1{
+
+    font-size: 60px;
+    color:white;
+    text-transform: capitalize;
+    line-height: 80px;
+   
+
+}
+
+.home-picture{
+    width:580px;
+ 
+}
+
+.home-picture img{
+    width:100%;
+}
+
+.btn{
+    background: gold;
+    padding: 10px 17px;
+    margin-top: 30px;
+   font-size:16px;
+   text-transform: capitalize;
+   transition: 1.5s;
+}
+
+.btn:hover{
+background: lightgreen;
+border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+/* ---------------------------------pleyar section--------------------------- */
+
+
+.player-section{
+  
+    padding: 50px 0px;
+}
+.players{
+
+    width:1007px;
+  background: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    position: relative;
+ 
+ 
+}
+.player {
+
+    width:300px;
+    box-shadow: 0px 0px 40px rgba(56, 39, 39, 0.15);
+    padding: 10px;
+    overflow: hidden;
+ 
+    height:400px;
+    position: relative;
+   
+
+}
+
+.player-info{
+    position: absolute;
+    height:200px;
+    left:0px;
+    top:250px;
+    padding: 10px;
+
+}
+.player:hover img{
+    transform: scale(1.1)
+
+}
+.player img{
+
+  width:100%;
+  height:250px;
+  transition: 2s;
+  overflow: hidden;
+}
+
+.p-name{
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-top: 5px;
+    margin-top: 5px;
+  
+}
+
+.player p{
+
+    color:gray;
+    padding: 10px 0px;
+}
+
+/*------------------------------ match  highlihts section ---------------------------------------- */
+
+.match{
+
+    display: flex;
+    width:1010px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px 0px;
+}
+
+.match-content{
+
+    width:460px;
+}
+.match-content h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.match-content p{
+    color:gray;
+}
+.match-content p::first-letter{
+    text-transform: capitalize;
+}
+
+.match-picture{
+    width:550px;
+}
+.match-picture img{
+    width:100%;
+    
+}
+
+
+/* -------------------------------------champion section -------------------------------------*/
+
+
+.champion-section{
+background:darkkhaki;
+padding: 40px 0px;
+
+}
+
+.cup-title{
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    color:white;
+}
+.champions{
+
+    width:1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.champion{
+
+    width:520px;
+    border:1px solid black;
+    padding:10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.champion img{
+    height:360px;
+    width:100%;
+    border-radius: 3%;
+    transition: 2s;
+}
+
+.champion:hover img{
+   transform: scale(1.1);
+}
+
+.champion h2{
+    text-transform: capitalize;
+    text-align: center;
+  color:black;
+}
+
+
+
+
+
+/*---------------------------------------- best player section -------------------------------*/
+
+
+.best-player-section{
+    padding: 40px 0px;
+}
+
+.best-title{
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.best-players{
+
+    width:1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.best{
+    width:270px;
+     
+   
+    padding:10px;
+    box-shadow: 0px 0px 40px rgba(56, 39, 39, 0.15);
+   transition: 2s;
+
+}
+
+.best img{
+
+    width:100%;
+    height:210px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.best img:hover{
+    transform: scale(0.8);
+   
+}
+
+.name{
+    text-align: center;
+    text-transform: capitalize;
+  
+}
+
+.title{
+    color:thistle;
+    transition: 1s;
+}
+
+.best:hover.best,.color{
+    border-radius:10px;
+    
+}
+
+.best:hover .title{
+
+    color:black;
+}
+
+
+
+
+
+
+
+/* ---------------------------------footer section ----------------------------------------*/
+
+
+.footer-section{
+    background:white;
+}
+footer{
+
+    width:480px;
+  
+    margin: auto;
+}
+
+footer img{
+    width:90%;
+    margin-top:5px;
+}
+.footer-content{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.fab {
+
+padding: 10px 10px;
+background: lawngreen;
+border-radius: 50%;
+transition: 1.5s;
+margin-bottom: 12px;
+
+}
+
+.fab:hover{
+    color:white;
+    background: black;
+    transform: rotate(360deg);
+}
+
+
+
+/* ---------------------------media-query----------------------------- */
+
+  /*---- header--- */
+@media  screen and (max-width:510px) {
+    header{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:769px) {
+    header{
+        display: none;
+    }
+}
+/*---------- container  -------------*/
+@media screen  and (max-width:920px){
+    .container{
+        width:100%;
+    
+   
+    }
+
+    .home-content{
+    width:100%;
+      margin-bottom: 20px;
+
+
+    }
+    .home-content h1{
+        font-size: 38px;
+       
+        line-height: 50px;
+    }
+
+    .home-picture{
+        width:100%;
+    }
+    
+}
+
+@media screen  and (max-width:668px){
+    .container{
+     
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+       
+    }
+
+    .home-content{
+    width:auto;
+      margin-top:4;
+    }
+  
+    .home-picture{
+        width:auto;
+    }
+}
+
+
+
+
+/*---------------- players ----------- */
+
+@media screen and (max-width:920px){
+
+    .players{
+    
+       width: 100%;
+    
+        grid-template-columns: repeat(2,300px);
+         justify-content: center;
+        align-items: center;
+    }
+  
+    
+    
+    
+    }
+
+@media screen and (max-width:668px){
+
+.players{
+    width:55%;
+    grid-template-columns: repeat(1,1fr);
+
+    align-items: center;
+   
+}
+.p-name{
+    text-align: center;
+}
+
+
+
+}
+/* ----------------match ----------- */
+@media screen and (max-width:920px){
+    .match{
+        width:100%;
+        background: cyan;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+
+    .match-picture img {
+         
+        width:100%;
+        margin-left:150px;
+      
+    }
+    .match-content{
+        margin-bottom:10px;
+        margin: auto;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:688px){
+    .match{
+        width:100%;
+        background: white;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+
+    .match-content{
+        
+       margin-bottom:20px;
+    }
+
+    .match-picture img {
+       
+        width:60%;
+        margin-left:60px;
+      
+      
+    }
+  
+}
+
+/* -------------------------champion---------------- */
+
+@media screen  and (max-width:920px){
+    .champions{
+        width: 100%;
+         flex-direction: column;
+         justify-content:space-around;
+         align-items: center;
+      
+     
+     
+    }
+
+    .champion{
+        margin-top:30px;
+        
+    
+        
+    }
+   .champion img{
+       width:100%;
+   }
+
+}
+
+@media screen and (max-width:668px) {
+    .champions{
+        width: 100%;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        
+    }
+  .champion{
+      width:90%;
+  }
+    .champion img{
+        width:100%;
+     
+    }
+}
+
+/*  -------------- best-players ----------------- */
+
+
+@media screen and (max-width:920px) {
+    .best-players{
+        width:100%;
+       flex-direction: column;
+     
+       justify-content: space-evenly;
+        align-items: center;
+        background-color: darkcyan;
+    }
+
+    .best{
+        background: white;
+        margin: 10px 0px;
+        box-shadow: 0px 0px 40px rgba(56, 39, 39, 0.15);
+    }
+}
+
+@media screen  and (max-width:668px){
+    .best-players{
+        width:100%;
+     flex-direction: column;
+       justify-content: center;
+      align-items: center;
+     
+    }
+
+
+    .best{
+        background: white;
+        margin: 10px 0px;
+        box-shadow: 0px 0px 40px rgba(56, 39, 39, 0.15);
+    }
+}
